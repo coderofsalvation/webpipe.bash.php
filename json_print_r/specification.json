@@ -1,0 +1,15 @@
+{
+    name: json_print_r
+    url: String
+    description: prettyprints jsondata using the php print_r() function 
+    inputs: {
+        name: jsondata
+        type: String
+        description: string of jsondata
+    }
+    outputs: {
+        name: text
+        type: String
+        description: pretty printed jsondata 
+    }
+}
