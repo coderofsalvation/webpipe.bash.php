@@ -1,7 +1,7 @@
 <?
 
+ini_set("display_errors", 1); 
 include_once("../webpipe.php");
-
 die( $_SERVER['REQUEST_METHOD'] == "POST" ? servePost() : serveOptions() );
 // every webpipe starts in the process function
 

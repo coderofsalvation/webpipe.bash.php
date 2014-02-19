@@ -5,17 +5,17 @@ This repository contains one example webpipe 'json_print_r' which functions as a
 
 ### Demonstration
 
-A demonstration of a webpipe.bash (a webpipe client) can be seen [here](https://github.com/coderofsalvation/webpipe.bash)
+A demonstration of a tool which utilitizes webpipes can seen [here](https://bashlive.com)
 
 ### Howto use
 
-Adviced is to use [webpipe.bash](https://github.com/coderofsalvation/webpipe.bash) so the webpipes appear as normal unix commands (as seen 
+Adviced is to use [bashlive](http://bashlive.com) or [webpipe.bash](https://github.com/coderofsalvation/webpipe.bash) so the webpipes appear as normal unix commands (as seen 
 in the demonstration above).
-For testing purposes curl can be used (see the following section), to process:
+For testing purposes also curl can be used directly (see the following section), to process:
 
-    curl -L -X POST -d 'putyourpostdatahere' -H Content-Type: text/plain       http://myurl.com/json_print_r
-    curl -L -X POST -d 'putyourpostdatahere' -H Content-Type: text/html        http://myurl.com/json_print_r
-    curl -L -X POST -d 'putyourpostdatahere' -H Content-Type: text/csv         http://myurl.com/json_print_r
+    curl -L -X POST -d 'putyourpostdatahere' -H Content-Type: text/plain http://myurl.com/json_print_r
+    curl -L -X POST -d 'putyourpostdatahere' -H Content-Type: text/html  http://myurl.com/json_print_r
+    curl -L -X POST -d 'putyourpostdatahere' -H Content-Type: text/csv   http://myurl.com/json_print_r
 
 Or to get the options:
 
