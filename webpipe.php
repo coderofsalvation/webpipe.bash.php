@@ -4,6 +4,7 @@
 // but KiSS is good for now.
 
 function getInputs(){
+  if ( isset($_GET['verbose']) ) ini_set("display_errors", 1); 
   $data = file_get_contents('php://input');
   switch( $_SERVER['CONTENT_TYPE'] ){
     case "application/json":  $data = json_encode($data);

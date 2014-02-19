@@ -21,6 +21,9 @@ Or to get the options:
 
     curl -L -X OPTIONS -H 'Content-Type: text/plain' http://myurl.com/json_print_r
 
+Again, this is a pretty cumbersome interfaces, adviced is to use [bashlive](http://bashlive.com) or [webpipe.bash](http://github.com/codersalvation/webpipe.bash) which automatically
+ convert commandline arguments/options/input to GET/POST variables.
+
 ### normal vs webpipe
 
 Interestingly enough it looks like webpipes run faster than normal forks when run locally.
