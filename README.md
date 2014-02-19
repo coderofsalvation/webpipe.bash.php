@@ -22,7 +22,7 @@ Or to get the options:
     curl -L -X OPTIONS -H 'Content-Type: text/plain' http://myurl.com/json_print_r
 
 Again, this is a pretty cumbersome interfaces, adviced is to use [bashlive](http://bashlive.com) or [webpipe.bash](http://github.com/codersalvation/webpipe.bash) which automatically
- convert commandline arguments/options/input to GET/POST variables.
+ convert commandline arguments/options/input to GET/POST variables. For example, if you pass the '--help' or '--verbose' flag using these tools, you will automatically get debug- and/or help info.
 
 ### normal vs webpipe
 
